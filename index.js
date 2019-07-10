@@ -1,5 +1,6 @@
 sap.ui.define([
 	"sap/m/Text",
+	"sap/ui/core/HTML",
 	"sap/m/Link"
 
 ], function (Text, Link) {
@@ -8,10 +9,14 @@ sap.ui.define([
 	new Text({
 		text: "Hello World"
 	}).placeAt("content");
+	
+	new HTML({
+		contant: "<br><br>"
+	}).placeAt("content");
 
 	new Link({
 		text: "Auf zu Google!",
-		href: "https://google.de/"
+		href: "https://www.google.de/"
 	}).placeAt("content");
 		
 });

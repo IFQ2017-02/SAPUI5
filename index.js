@@ -11,7 +11,7 @@ sap.ui.define([
 	}).placeAt("content");
 	
 	new HTML({
-		contant: "<br><br>"
+		content: "<br><br>"
 	}).placeAt("content");
 
 	new Link({

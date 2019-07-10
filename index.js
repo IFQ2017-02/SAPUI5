@@ -1,5 +1,5 @@
 sap.ui.define([
-	"sap/m/Text"
+	"sap/m/Text",
 	"sap/m/Link"
 
 ], function (Text, Link) {

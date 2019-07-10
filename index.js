@@ -10,8 +10,8 @@ sap.ui.define([
 	}).placeAt("content");
 
 	new Link({
-		href:"https://google.de/",
-		text:"Auf zu Google!"
+		text: "Auf zu Google!",
+		href: "https://google.de/"
 	}).placeAt("content");
 		
 });

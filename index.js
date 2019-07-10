@@ -16,7 +16,7 @@ sap.ui.define([
 
 	new Link({
 		text: "Auf zu Google!",
-		href: "https://www.google.de/"
+		href: "https://google.de/"
 	}).placeAt("content");
 		
 });

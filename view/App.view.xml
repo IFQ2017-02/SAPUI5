@@ -2,7 +2,12 @@
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc"
    xmlns:core="sap.ui.core">
-   <Text text="Hello World"/>
+   <Text text="Hello World aus der XML-View"/>
    <core:HTML content="&lt;br&gt;&lt;br&gt;"/>
    <Link text="Auf zu Google!" href="https://google.com/"/>
+   <Vbox>
+      <Text text="Hello World nochmal in Vbox"/>
+      <core:HTML content="&lt;br&gt;&lt;br&gt;"/>
+      <Link text="Auf zu Google!" href="https://google.com/"/>
+   </Vbox>
 </mvc:View>

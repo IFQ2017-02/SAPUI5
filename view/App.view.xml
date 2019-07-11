@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8">
 <mvc:View
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc"
@@ -9,4 +10,6 @@
       <Text text="Hello World nochmal in VBox"/>
       <Link text="Auf zu Google!" href="https://google.com/"/>
    </VBox>
+   <core:HTML content="&lt;br&gt;&lt;br&gt;"/>
+   <Button text="Drück mich" press=".onDrueckMich"/>
 </mvc:View>

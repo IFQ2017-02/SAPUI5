@@ -3,7 +3,7 @@ sap.ui.define([
  ], function (Controller) {
     "use strict";
     return Controller.extend("hts.ifq2017-02.walkthrough.controller.App", {
-        onDrueckMich : function () {
+        onDrueckMich: function () {
            alert("Guten Tag Hunz und Kunz");
         }
      });

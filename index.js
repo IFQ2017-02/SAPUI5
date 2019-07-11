@@ -8,7 +8,7 @@ sap.ui.define([
 	"use strict";
 
 	new Text({
-		text: "Hello World"
+		text: "Hello World neu"
 	}).placeAt("content");
 
 	new HTML({

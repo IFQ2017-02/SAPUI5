@@ -5,8 +5,8 @@
    <Text text="Hello World aus der XML-View"/>
    <core:HTML content="&lt;br&gt;&lt;br&gt;"/>
    <Link text="Auf zu Google!" href="https://google.com/"/>
-   <Vbox>
-      <Text text="Hello World nochmal in Vbox"/>
+   <VBox>
+      <Text text="Hello World nochmal in VBox"/>
       <Link text="Auf zu Google!" href="https://google.com/"/>
-   </Vbox>
+   </VBox>
 </mvc:View>

@@ -23,7 +23,7 @@
       <Button text="Confirm-Meldung" press=".onConfirm"/>
       <Button text="Success-Meldung" press=".onSuccess"/>
    </VBox>
-   <Button text="{i18n>showHelloButtonText}" press=".onShowHello">
+   <Button text="{i18n>showHelloButtonText}" press=".onShowHello"/>
    <Input
       value="{/recipient/name}"
       description="Hello {/recipient/name}"

@@ -16,6 +16,6 @@
       <Button text="Standard-Meldung" press=".onAlert"/>
       <Button text="MessageToast" press=".onMessageToast"/>
       <Button text="MessageBox" press=".onMessageBox"/>
-      <Button text="MessageBox" press=".onError"/>
+      <Button text="Fehler-Meldung" press=".onError"/>
    </VBox>
 </mvc:View>

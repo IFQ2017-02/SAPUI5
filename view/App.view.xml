@@ -23,4 +23,9 @@
       <Button text="Confirm-Meldung" press=".onConfirm"/>
       <Button text="Success-Meldung" press=".onSuccess"/>
    </VBox>
+   <Input
+      value="{/recipient/name}"
+      description="Hallo {/recipient/name}"
+      valueLiveUpdate="true"
+      width="60%"/>
 </mvc:View>

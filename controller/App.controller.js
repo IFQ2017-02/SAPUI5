@@ -1,10 +1,21 @@
 sap.ui.define([
    "sap/ui/core/mvc/Controller",
    "sap/m/MessageToast",
-   "sap/m/MessageBox"
-], function (Controller, MessageToast, MessageBox) {
+   "sap/m/MessageBox",
+   "sap/ui/model/json/JSONModel"
+], function (Controller, MessageToast, MessageBox, JSONModel) {
    "use strict";
    return Controller.extend("hts.ifq2017-02.walkthrough.controller.App", {
+
+      onInit: function () {
+         var oData = {
+            recipient : {
+               name : "Welt"
+            }
+         };
+         var oModel = new JSONModel(oData);
+         this.getView().setModel(oModel);
+      },
       onStandardAlert: function () {
          alert("Dies ist eine Standard-Meldung");
       },

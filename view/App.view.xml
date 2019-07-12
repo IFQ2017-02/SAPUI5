@@ -25,7 +25,7 @@
    </VBox>
    <Input
       value="{/recipient/name}"
-      description="Hallo {/recipient/name}"
+      description="{/recipient/name} ist scheiße."
       valueLiveUpdate="true"
       width="60%"/>
 </mvc:View>

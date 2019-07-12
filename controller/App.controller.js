@@ -10,7 +10,7 @@ sap.ui.define([
       onInit: function () {
          var oData = {
             recipient : {
-               name : "Welt"
+               name : "Die Welt"
             }
          };
          var oModel = new JSONModel(oData);
@@ -20,7 +20,7 @@ sap.ui.define([
          alert("Dies ist eine Standard-Meldung");
       },
       onMessageToast: function () {
-         MessageToast.show("Dies ist ein MessageToast");
+         MessageToast.show("Dies ist ein MessageToast");s
       },
       onMessageBox: function () {
          MessageBox.show("Dies ist eine SAPUI5-Meldung", {

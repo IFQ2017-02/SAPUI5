@@ -2,8 +2,9 @@ sap.ui.define([
    "sap/ui/core/mvc/Controller",
    "sap/m/MessageToast",
    "sap/m/MessageBox",
-   "sap/ui/model/json/JSONModel"
-], function (Controller, MessageToast, MessageBox, JSONModel) {
+   "sap/ui/model/json/JSONModel",
+   "sap/ui/model/resource/ResourceModel"
+], function (Controller, MessageToast, MessageBox, JSONModel, ResourceModel) {
    "use strict";
    return Controller.extend("hts.ifq2017-02.walkthrough.controller.App", {
 
@@ -19,12 +20,23 @@ sap.ui.define([
          };
          var oModel = new JSONModel(oData);
          this.getView().setModel(oModel);
+         var i18nModel = new ResourceModel({
+            bundleName: "hts.ifq2017-02.walkthrough.i18n.i18n"
+         });
+         this.getView().setModel(i18nModel, "i18n");
+      },
+      // read msg from i18n model
+      var oBundle = this.getView().getModel("i18n").getResourceBundle();
+      var sRecipient = this.getView().getModel().getProperty("/recipient/name");
+      var sMsg = oBundle.getText("helloMsg", [sRecipient]);
+      // show message
+      MessageToast.show(sMsg);
       },
       onStandardAlert: function () {
          alert("Dies ist eine Standard-Meldung");
       },
       onMessageToast: function () {
-         MessageToast.show("Dies ist ein MessageToast");s
+         MessageToast.show("Dies ist ein MessageToast");
       },
       onMessageBox: function () {
          MessageBox.show("Dies ist eine SAPUI5-Meldung", {

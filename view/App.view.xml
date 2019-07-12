@@ -13,9 +13,14 @@
    </VBox>
    <core:HTML content="&lt;br&gt;&lt;br&gt;"/>
    <VBox>
-      <Button text="Standard-Meldung" press=".onAlert"/>
+      <Button text="Standard-Meldung" press=".onStandardAlert"/>
       <Button text="MessageToast" press=".onMessageToast"/>
       <Button text="MessageBox" press=".onMessageBox"/>
-      <Button text="Fehler-Meldung" press=".onError"/>
+      <Button text="Information-Meldung" press=".onInformation"/>
+      <Button text="Alert-Meldung" press=".onAlert"/>
+      <Button text="Warning-Meldung" press=".onWarning"/>
+      <Button text="Error-Meldung" press=".onError"/>
+      <Button text="Confirm-Meldung" press=".onConfirm"/>
+      <Button text="Success-Meldung" press=".onSuccess"/>
    </VBox>
 </mvc:View>

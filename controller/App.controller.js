@@ -10,7 +10,11 @@ sap.ui.define([
       onInit: function () {
          var oData = {
             recipient : {
-               name : "Die Welt"
+               name : "Welt"
+            },
+            schüler : {
+               name: "Hugo",
+               noten: [1,2,2,1]
             }
          };
          var oModel = new JSONModel(oData);

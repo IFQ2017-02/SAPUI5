@@ -10,12 +10,12 @@ sap.ui.define([
 
       onInit: function () {
          var oData = {
-            recipient : {
-               name : "Welt"
+            recipient: {
+               name: "Welt"
             },
-            schüler : {
+            schüler: {
                name: "Hugo",
-               noten: [1,2,2,1]
+               noten: [1, 2, 2, 1]
             }
          };
          var oModel = new JSONModel(oData);
@@ -25,12 +25,13 @@ sap.ui.define([
          });
          this.getView().setModel(i18nModel, "i18n");
       },
-      // read msg from i18n model
-      var oBundle = this.getView().getModel("i18n").getResourceBundle();
-      var sRecipient = this.getView().getModel().getProperty("/recipient/name");
-      var sMsg = oBundle.getText("helloMsg", [sRecipient]);
-      // show message
-      MessageToast.show(sMsg);
+      onShowHello: function () {
+         // read msg from i18n model
+         var oBundle = this.getView().getModel("i18n").getResourceBundle();
+         var sRecipient = this.getView().getModel().getProperty("/recipient/name");
+         var sMsg = oBundle.getText("helloMsg", [sRecipient]);
+         // show message
+         MessageToast.show(sMsg);
       },
       onStandardAlert: function () {
          alert("Dies ist eine Standard-Meldung");

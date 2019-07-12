@@ -12,7 +12,9 @@ sap.ui.define([
          MessageToast.show("Dies ist ein MessageToast");
       },
       onMessageBox: function () {
-         MessageBox.show("Dies ist eine SAPUI5-Meldung");
+         MessageBox.show("Dies ist eine SAPUI5-Meldung", {
+            title: "Meldung"
+         });
       }
    });
 });

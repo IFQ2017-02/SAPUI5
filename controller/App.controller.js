@@ -15,6 +15,11 @@ sap.ui.define([
          MessageBox.show("Dies ist eine SAPUI5-Meldung", {
             title: "Meldung"
          });
+      },
+      onError: function () {
+         MessageBox.error("Dies ist eine SAPUI5-Fehlermeldung", {
+            title: "Fehler"
+         });
       }
    });
 });

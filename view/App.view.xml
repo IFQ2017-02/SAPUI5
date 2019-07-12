@@ -12,5 +12,6 @@
       <Link text="Auf zu Google!" href="https://google.com/"/>
    </VBox>
    <core:HTML content="&lt;br&gt;&lt;br&gt;"/>
-   <Button text="Drück mich" press=".onDrueckMich"/>
+   <Button text="Standard-Meldung" press=".onAlert"/>
+   <Button text="MessageToast" press=".onMessageToast"/>
 </mvc:View>

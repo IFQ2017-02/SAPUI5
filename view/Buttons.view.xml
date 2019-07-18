@@ -1,0 +1,40 @@
+<mvc:View
+   controllerName="sap.ui.demo.walkthrough.controller.Buttons"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+   <Panel
+      headerText="{i18n>ButtonsTitle}"
+      class="sapUiResponsiveMargin"
+      width="auto" >
+      <content>
+         <Button
+            text="Show"
+            press=".onShowShow"
+            class="myAppDemoWT myCustomButton"/>
+         <Button
+            text="Alert"
+            press=".onShowAlert"
+            class="myAppDemoWT myCustomButton"/>
+         <Button
+            text="Information"
+            press=".onShowInformation"
+            class="myAppDemoWT myCustomButton"/>
+         <Button
+            text="Warning"
+            press=".onShowWarning"
+            class="myAppDemoWT myCustomButton"/>
+         <Button
+            text="Error"
+            press=".onShowError"
+            class="myAppDemoWT myCustomButton"/>
+         <Button
+            text="Confirm"
+            press=".onShowConfirm"
+            class="myAppDemoWT myCustomButton"/>
+         <Button
+            text="Success"
+            press=".onShowSuccess"
+            class="myAppDemoWT myCustomButton"/>
+      </content>
+   </Panel>
+</mvc:View>

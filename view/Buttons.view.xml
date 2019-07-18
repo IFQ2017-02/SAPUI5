@@ -9,25 +9,32 @@
       <content >
          <Button
             text="Show"
-            press=".onShowShow"/>
+            press=".onShowShow"
+            class="sapUiSmallMarginEnd"/>
          <Button
             text="Alert"
-            press=".onShowAlert"/>
+            press=".onShowAlert"
+            class="sapUiSmallMarginEnd"/>
          <Button
             text="Information"
-            press=".onShowInformation"/>
+            press=".onShowInformation"
+            class="sapUiSmallMarginEnd"/>
          <Button
             text="Warning"
-            press=".onShowWarning"/>
+            press=".onShowWarning"
+            class="sapUiSmallMarginEnd"/>
          <Button
             text="Error"
-            press=".onShowError"/>
+            press=".onShowError"
+            class="sapUiSmallMarginEnd"/>
          <Button
             text="Confirm"
-            press=".onShowConfirm"/>
+            press=".onShowConfirm"
+            class="sapUiSmallMarginEnd"/>
          <Button
             text="Success"
-            press=".onShowSuccess"/>
+            press=".onShowSuccess"
+            class="sapUiSmallMarginEnd"/>
       </content>
    </Panel>
 </mvc:View>

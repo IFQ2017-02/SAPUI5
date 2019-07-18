@@ -16,7 +16,7 @@
             valueLiveUpdate="true"
             width="60%"/>
          <FormattedText
-            htmlText="{i18n>HelloMsg} {/recipient/name}]"
+            htmlText="{i18n>HelloMsg} {/recipient/name}"
             class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
       </content>
    </Panel>

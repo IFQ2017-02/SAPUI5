@@ -5,7 +5,7 @@
    <Panel
       headerText="{i18n>buttonsTitle}"
       class="sapUiResponsiveMargin"
-      width="auto" >
+      width="100%" >
       <content>
          <Button
             text="Show"

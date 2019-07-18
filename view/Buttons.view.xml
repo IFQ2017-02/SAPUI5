@@ -5,36 +5,36 @@
    <Panel
       headerText="{i18n>buttonsTitle}"
       class="sapUiResponsiveMargin"
-      width="20%" >
+      width="auto" >
       <content >
          <Button
             text="Show"
             press=".onShowShow"
-            class="myAppDemoWT myCustomButton"/>
+            class="sapUiSmallMarginEnd"/>
          <Button
             text="Alert"
             press=".onShowAlert"
-            class="myAppDemoWT myCustomButton"/>
+            class="sapUiSmallMarginEnd"/>
          <Button
             text="Information"
             press=".onShowInformation"
-            class="myAppDemoWT myCustomButton"/>
+            class="sapUiSmallMarginEnd"/>
          <Button
             text="Warning"
             press=".onShowWarning"
-            class="myAppDemoWT myCustomButton"/>
+            class="sapUiSmallMarginEnd"/>
          <Button
             text="Error"
             press=".onShowError"
-            class="myAppDemoWT myCustomButton"/>
+            class="sapUiSmallMarginEnd"/>
          <Button
             text="Confirm"
             press=".onShowConfirm"
-            class="myAppDemoWT myCustomButton"/>
+            class="sapUiSmallMarginEnd"/>
          <Button
             text="Success"
             press=".onShowSuccess"
-            class="myAppDemoWT myCustomButton"/>
+            class="sapUiSmallMarginEnd"/>
       </content>
    </Panel>
 </mvc:View>

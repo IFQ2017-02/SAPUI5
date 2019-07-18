@@ -17,7 +17,7 @@
             width="60%"/>
          <FormattedText
             htmlText="{i18n>helloMsg} {/recipient/name}"
-            class="sapUiSmallMargin sapThemeHighlight-asColor"/>
+            class="sapUiSmallMargin"/>
       </content>
    </Panel>
 </mvc:View>

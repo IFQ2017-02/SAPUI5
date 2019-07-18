@@ -12,6 +12,9 @@
     },
     "sap.ui": {
       "technology": "UI5",
+      "icons": {
+        "favIcon": "sap-icon://sap-ui5"
+      },
       "deviceTypes": {
           "desktop": true,
           "tablet": true,

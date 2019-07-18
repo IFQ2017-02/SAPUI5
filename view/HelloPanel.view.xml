@@ -16,8 +16,7 @@
             valueLiveUpdate="true"
             width="60%"/>
          <FormattedText
-            htmlText="{parts:['i18n>HelloMsg', 'recipient>/name'], 
-                     formatter: 'jQuery.sap.formatMessage'}"
+            htmlText="Test"
             class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
       </content>
    </Panel>
